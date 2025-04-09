@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Instalar dependências') {
+        stage('Clonar o repositorio') {
             steps {
                 sh 'npm install'
             }
